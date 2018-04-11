@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  color: #FFF;
+  color: #000;
   border: 7px double green;
   padding: 40px;
   padding-left: 150px;
@@ -37,7 +37,8 @@ h2 {
   }
 
 h3 {
-  color: #000;
+  color: #FFF;
+  text-shadow: 5px 10px 20px grey;
   border: 7px dashed orange;
   line-height: 250px;
 }
@@ -75,16 +76,16 @@ text-decoration: underline;
 
 li {
   font-family: sans-serif;
-  font-size: 17px;
   text-decoration: line-through;
 }
 
 ul {
-
+font-style: oblique;
 }
 
 ol {
-
+  font-style: italic;
+  font-size: 25px;
 }
 
 div {
@@ -98,4 +99,8 @@ div {
 .divs_class {
     display: inline-block
     width: 75px;
+}
+
+.test .example:hover{
+  color: blue;
 }
